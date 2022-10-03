@@ -12,6 +12,10 @@ namespace DClass3
         {
 
         }
+        public void rumus()
+        {
+
+        }
     }
     internal class Program
     {
