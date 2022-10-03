@@ -67,6 +67,16 @@ namespace DClass3
         }
         static void Main(string[] args)
         {
+            Program mylist = new Program();
+
+            mylist.read();
+
+            mylist.BubbleSortArray();
+
+            mylist.display();
+
+            Console.WriteLine("\n\nTekan Tombol Apa Saja Untuk Keluar.");
+            Console.Read();
         }
     }
 }
