@@ -12,11 +12,10 @@ namespace DClass3
         {
 
         }
-        public void rumus()
+        public void cara()
         {
 
         }
-    }
     internal class Program
     {
         static void Main(string[] args)
