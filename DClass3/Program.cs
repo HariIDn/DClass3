@@ -36,6 +36,20 @@ namespace DClass3
                 a[i] = Int32.Parse(s1);
             }
         }
+        public void display()
+        {
+
+            Console.WriteLine("");
+            Console.WriteLine("----------------------------------");
+            Console.WriteLine(" Element Array yang Telah Tersusun");
+            Console.WriteLine("----------------------------------");
+            for (int j = 0; j < n; j++)
+            {
+                Console.WriteLine(a[j]);
+            }
+            Console.WriteLine("");
+        }
+
         static void Main(string[] args)
         {
         }
